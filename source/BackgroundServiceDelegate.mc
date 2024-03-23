@@ -90,7 +90,7 @@ class BackgroundServiceDelegate extends Sys.ServiceDelegate
 		//var position = [38.855385, -94.799644];
 		var lat = Utils.get_number_from_storage("lat");
 		var lon = Utils.get_number_from_storage("lon");
-		var url = "https://api.openweathermap.org/data/3.0/onecall?lat="+lat+"&lon="+lon+"&appid=77cd6940bcb81de2e9f2e58d7ae65c39&units=metric&exclude=hourly,minutely,daily,alerts";
+		var url = "https://api.openweathermap.org/data/3.0/onecall?lat="+lat+"&lon="+lon+"&appid=[YOUR_ID]&units=metric&exclude=hourly,minutely,daily,alerts";
 		Utils.log("[getWeather] url "+url);
         //Utils.log("url  = "+url);
 		var options = {
