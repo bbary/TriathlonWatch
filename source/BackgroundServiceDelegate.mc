@@ -42,7 +42,7 @@ class BackgroundServiceDelegate extends Sys.ServiceDelegate
     {
 		var lat = Utils.get_number_from_storage("lat");
 		var lon = Utils.get_number_from_storage("lon");
-		var url = "https://api.openweathermap.org/geo/1.0/reverse?lat="+lat+"&lon="+lon+"&limit=1&appid=77cd6940bcb81de2e9f2e58d7ae65c39";
+		var url = "https://api.openweathermap.org/geo/1.0/reverse?lat="+lat+"&lon="+lon+"&limit=1&appid=[YOUR_ID]";
 
         Utils.log("[getCityFromPosition] url "+url);
 		var options = {
