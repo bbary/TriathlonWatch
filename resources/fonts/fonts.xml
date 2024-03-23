@@ -1,0 +1,8 @@
+<fonts>
+    <font id="TimeFont1" filename="knewave90.fnt"/>
+    <font id="DateFont" filename="marker50all.fnt"/>
+    <font id="WeatherFont" filename="erikflowers30.fnt"/>
+    <font id="iconsFont" filename="crystal-icons-large.fnt"/>
+    <font id="arial15" filename="arial15.fnt"/>
+    <font id="titillium16" filename="titillium16.fnt"/>
+</fonts>

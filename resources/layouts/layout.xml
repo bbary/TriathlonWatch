@@ -1,0 +1,32 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+    <label id="Sunrise" x="132" y="13" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_LT_GRAY" />
+    <label id="Sunset" x="145" y="13" font="Graphics.FONT_TINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_LT_GRAY" />
+    
+    <label id="weatherIcon" x="140" y="60" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_YELLOW" />
+    <label id="weatherFeelsLike" x="110" y="54" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+    <label id="weatherWindSpeed" x="170" y="54" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+    <label id="weatherWindDirection" x="108" y="86" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+    <label id="weatherRainInMmPerHour" x="171" y="86" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_BLUE" />
+    <!-- Pop = Percentage of precipitation -->
+    <label id="weatherPop" x="170" y="73" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_YELLOW" />
+    <label id="highAndLowTemp" x="108" y="71" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_YELLOW" />
+
+    <!-- <label id="weatherLastUpdate" x="125" y="82" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_DK_GRAY" /> -->
+
+    <!--<label id="weatherDesc" x="26" y="100" font="Graphics.FONT_GLANCE" justification="Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_ORANGE" />-->
+    <label id="weatherDescGarmin" x="140" y="101" font="Graphics.FONT_GLANCE" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_DK_GRAY" />
+    <label id="weatherCity" x="26" y="167" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_DK_GRAY" />
+
+    <label id="TotalSportTime" x="57" y="81" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TotalAscent" x="225" y="81" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_WHITE" />
+
+    <label id="TotalSwim" x="75" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TotalBike" x="160" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="TotalRun" x="245" y="170" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+
+    <label id="TotalSwim_lastweek" x="75" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+    <label id="TotalBike_lastweek" x="160" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+    <label id="TotalRun_lastweek" x="243" y="215" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER" color="Graphics.COLOR_LT_GRAY" />
+
+</layout>
